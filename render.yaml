@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: websharper-app
+    env: dotnet
+    branch: main
+    buildCommand: dotnet build
+    startCommand: dotnet run --project ThesisManagementSystem.fsproj
+    autoDeploy: true
