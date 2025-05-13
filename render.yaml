@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: Thesis_Management_system-1
+    name: Thesis_Management_system-2
     runtime: dotnet
     buildCommand: dotnet build
     startCommand: dotnet run
