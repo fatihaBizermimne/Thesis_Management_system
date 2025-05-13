@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: websharper-app
-    env: dotnet
-    branch: main
+    name: Thesis_Management_system-1
+    runtime: dotnet
     buildCommand: dotnet build
-    startCommand: dotnet run --project ThesisManagementSystem.fsproj
-    autoDeploy: true
+    startCommand: dotnet run
+    env: dotnet
+    plan: free
