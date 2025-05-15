@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: Thesis_Management_system-2
-    runtime: dotnet
-    buildCommand: dotnet build
-    startCommand: dotnet run
-    env: dotnet
-    plan: free
