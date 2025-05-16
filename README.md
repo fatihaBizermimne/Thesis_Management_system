@@ -56,21 +56,24 @@ Make sure you have the following installed:
 5.  Deleting a thesis:
     Click the "Delete" button next to the thesis you wish to delete.
 
-7. Downloading a thesis
-    Click the "Download" button next to the thesis you wish to download.  
+6.  Downloading a thesis
+    Click the "Download" button next to the thesis you wish to download.
     
-7.Manage Users:
+8.  Manage Users:
   Go to Manage Users → Add/delete users or assign admin roles.
 
 #For user
 
 1. Search Theses:
    Use filters (year, department, keywords) to find specific theses.
-2.  view a thesis:
+   
+3.  view a thesis:
     Click the "view" button .
     The full PDF will open in a new browser tab
-3. Downloading a thesis
-    Click the "Download" button next to the thesis you wish to download.   
+    
+5. Downloading a thesis
+    Click the "Download" button next to the thesis you wish to download.
+   
 
     
 ## Screenshots
