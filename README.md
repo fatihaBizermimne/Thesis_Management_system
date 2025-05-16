@@ -78,4 +78,15 @@ Make sure you have the following installed:
     
 ## Screenshots
 
+
+![photo 1]https://github.com/fatihaBizermimne/Thesis_Management_system/blob/main/Screenshot_16-5-2025_153042_thesismanagementsystem.onrender.com.jpeg
+
+![photo 2]https://github.com/fatihaBizermimne/Thesis_Management_system/blob/main/Screenshot_16-5-2025_153135_thesismanagementsystem.onrender.com.jpeg
+
+![photo 3]https://github.com/fatihaBizermimne/Thesis_Management_system/blob/main/Screenshot_16-5-2025_153213_thesismanagementsystem.onrender.com.jpeg
+
+![photo 4]https://github.com/fatihaBizermimne/Thesis_Management_system/blob/main/Screenshot_16-5-2025_15335_thesismanagementsystem.onrender.com.jpeg
+![photo 5]https://github.com/fatihaBizermimne/Thesis_Management_system/blob/main/Screenshot_16-5-2025_153427_thesismanagementsystem.onrender.com.jpeg
+ 
+
  
