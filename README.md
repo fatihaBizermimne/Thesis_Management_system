@@ -38,9 +38,10 @@ Make sure you have the following installed:
     type in terminal : dotnet run
 
   
-## Usage
+## Usage:
 
 #For Admins
+login page : username : admin , password : P@$$w0rd
 1.  Adding a Thesis:
     Navigate to Manage Theses → Fill in title, author, year, department, and upload PDF.
     Click Add Thesis.
@@ -63,6 +64,7 @@ Make sure you have the following installed:
   Go to Manage Users → Add/delete users or assign admin roles.
 
 #For user
+login page : username : user  , password :user123 
 
 1. Search Theses:
    Use filters (year, department, keywords) to find specific theses.
@@ -76,7 +78,6 @@ Make sure you have the following installed:
    
 
     
-## Screenshots
 
 ## Screenshots
 
