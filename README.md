@@ -1,31 +1,48 @@
-# Thesis_Management
+# 🎓 Thesis Management System
 
-A web application built with WebSharper and F# for managing academic theses. Admins can upload, organize, and manage theses, while users can search, view, and download them.
-You can preview the site here : https://thesismanagementsystem.onrender.com
+A responsive web application built with **WebSharper** and **F#** for managing academic theses.  
+Admins can upload, organize, and manage thesis records, while users can search, view, and download them.
 
+🔗 **Live Demo**: [thesismanagementsystem.onrender.com](https://thesismanagementsystem.onrender.com)
 
-## Features
+---
 
-- Admin Dashboard: Track users, theses, and departments
-- Upload Theses: Add PDFs with metadata (title, author, year, department, keywords).
-- Search & Filter: Find theses by year, department, or keywords.
-- Download Theses: Users can download PDFs directly.
-- view Theses :Users can view PDFS directly.
-- User Management: Admins can add/delete users and assign roles.
+## ✨ Features
 
-## Getting Started
+### 🛠 Admin Panel
+- **Dashboard**: Overview of users, departments, and uploaded theses.
+- **Add Thesis**: Upload PDFs with metadata (title, author, year, department, keywords).
+- **Edit & Delete**: Modify or remove thesis records.
+- **View Thesis**: Open thesis PDFs in the browser.
+- **Download Thesis**: Download original uploaded files.
+- **User Management**: Add/delete users and assign roles.
 
-### Prerequisites
-Make sure you have the following installed:
+### 👩‍🎓 User Interface
+- **Search & Filter**: Locate theses by year, department, or keywords.
+- **View Thesis**: Preview PDFs directly in-browser.
+- **Download Thesis**: Save thesis files locally.
 
-- [Visual Studio](https://visualstudio.microsoft.com/) (2019 or later) with the .NET 8 desktop development workload
+---
+
+## 🚀 Getting Started
+
+### 📋 Prerequisites
+
+Ensure the following are installed:
+
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [Visual Studio 2019+](https://visualstudio.microsoft.com/)
 - [WebSharper](https://websharper.com/downloads)
 
-1. Clone the Repository
-   1. Open your terminal and run:
-      git clone (https://github.com/fatihaBizermimne/Thesis_Management_system.git)
-   2. Navigate to the project directory:
-      cd Thesis_Management_system
+---
+
+### 🧪 Installation
+
+1. **Clone the Repository**
+
+git clone https://github.com/fatihaBizermimne/Thesis_Management_system.git
+cd Thesis_Management_system
+
     
 2. Open the Project in Visual Studio
     Launch Visual Studio.
@@ -37,45 +54,63 @@ Make sure you have the following installed:
 4. Run the Application
     type in terminal : dotnet run
 
-  
-## Usage:
 
-#For Admins
-login page : username : admin , password : P@$$w0rd
-1.  Adding a Thesis:
-    Navigate to Manage Theses → Fill in title, author, year, department, and upload PDF.
-    Click Add Thesis.
-   
-2.  Editing a Thesis:
-     Navigate to Manage Theses → Update any field in the edit form.
-     Click Save Thesis.
-    
-4.  view a thesis:
-    Click the "view" button .
-    The full PDF will open in a new browser tab 
-    
-5.  Deleting a thesis:
-    Click the "Delete" button next to the thesis you wish to delete.
+## 📖 Usage Guide
 
-6.  Downloading a thesis
-    Click the "Download" button next to the thesis you wish to download.
-    
-8.  Manage Users:
-  Go to Manage Users → Add/delete users or assign admin roles.
+### 🔐 Admin Login  
+- **Username**: `admin`  
+- **Password**: `P@$$w0rd`
 
-#For user
-login page : username : user  , password :user123 
+### 👨‍🏫 Admin Capabilities
 
-1. Search Theses:
-   Use filters (year, department, keywords) to find specific theses.
-   
-3.  view a thesis:
-    Click the "view" button .
-    The full PDF will open in a new browser tab
-    
-5. Downloading a thesis
-    Click the "Download" button next to the thesis you wish to download.
-   
+#### ➕ Add a Thesis
+1. Navigate to `Manage Theses`
+2. Fill in:
+   - Title  
+   - Author  
+   - Year  
+   - Department  
+   - Keywords  
+   - Upload the PDF
+3. Click `Add Thesis`
+
+#### 📝 Edit a Thesis
+1. Go to `Manage Theses`
+2. Click the **Edit** button beside the record
+3. Modify fields and click `Save Thesis`
+
+#### 🔍 View a Thesis
+- Click the **View** button to open the thesis in a new browser tab
+
+#### 📥 Download a Thesis
+- Click the **Download** button next to the thesis
+
+#### ❌ Delete a Thesis
+- Click the **Delete** button to remove the thesis
+
+#### 👥 Manage Users
+- Navigate to `Manage Users`
+- Add, delete, or promote users to admin
+
+#### 🔎 Search Theses
+- Use filters by year, department, or keywords
+
+---
+
+### 🙋‍♀️ User Login  
+- **Username**: `user`  
+- **Password**: `user123`
+
+### 👩‍🎓 User Actions
+
+#### 🔎 Search Theses
+- Use filters by year, department, or keywords
+
+#### 📰 View Thesis
+- Click **View** to open the PDF directly
+
+#### 💾 Download Thesis
+- Click **Download** to save the thesis locally
 
     
 
