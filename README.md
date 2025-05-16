@@ -3,7 +3,7 @@
 A responsive web application built with **WebSharper** and **F#** for managing academic theses.  
 Admins can upload, organize, and manage thesis records, while users can search, view, and download them.
 
-🔗 **Live Demo**: [thesismanagementsystem.onrender.com](https://thesismanagementsystem.onrender.com)
+🔗 **Live Demo**: https://thesismanagementsystem.onrender.com
 
 ---
 
