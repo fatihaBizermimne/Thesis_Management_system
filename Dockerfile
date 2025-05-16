@@ -7,11 +7,11 @@ WORKDIR /src
 COPY ["ThesisManagementSystem.fsproj", "./"]
 RUN dotnet restore "ThesisManagementSystem.fsproj"
 COPY . .
-RUN dotnet build "ThesisManagementSystem.fsproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build "ThesisManagementSystem.fsproj" -c ${BUILD_CONFIGURATION} -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "ThesisManagementSystem.fsproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "ThesisManagementSystem.fsproj" -c ${BUILD_CONFIGURATION} -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
