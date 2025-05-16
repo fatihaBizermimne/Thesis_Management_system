@@ -7,20 +7,25 @@ on:
     branches: [ "main" ]
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: write
 
     steps:
       - uses: actions/checkout@v4
-      - name: Build the image
-        run: docker build . --file thesis_management_system/Dockerfile --tag ghcr.io/fatihabizermimne/thesis_management_system:latest --load
+
       - name: Log in to GitHub Container Registry
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build the image
+        run: docker build -f Dockerfile -t ghcr.io/fatihabizermimne/thesis_management_system:latest .
+
       - name: Push image to GitHub Container Registry
         run: docker push ghcr.io/fatihabizermimne/thesis_management_system:latest
